@@ -1,5 +1,5 @@
 {
-  "name": "webpack-eslint-prettier-template",
+  "name": "vanilla-slideshow",
   "version": "1.0.0",
   "description": "Frontend template to quickly start projects with webpack, ESLint and prettier.",
   "main": "index.js",

@@ -1,0 +1,39 @@
+.slideshow-button {
+    opacity: 70%;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.700);
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slideshow-button:hover {
+    opacity: 100%;
+}
+
+.circle-dot {
+    opacity: 70%;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+    height: 5px;
+    width: 5px;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    outline: 1px solid;
+    outline-offset: 2px;
+
+}
+
+.circle-dot.selected {
+    background-color: black;
+
+}
+
+.circle-dot:hover {
+    opacity: 100%;
+}

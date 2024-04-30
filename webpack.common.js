@@ -1,32 +1,21 @@
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+const path = require('path');
 
 module.exports = {
-  entry: "./src/index.js",
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: "./src/index.html",
-    }),
-  ],
+  entry: ['./src/style.css', './src/index.js'],
   output: {
-    filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
-    clean: true,
+    filename: 'vanilla-slideshow.js',
+    path: path.resolve(__dirname, 'dist'),
+    library: 'vanilla-slideshow',
+    libraryTarget: 'umd',
+    clean: true
   },
   module: {
     rules: [
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
-      },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: "asset/resource",
-      },
-      {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i,
-        type: "asset/resource",
-      },
-    ],
-  },
+        sideEffects: true,
+        use: ['style-loader', 'css-loader']
+      }
+    ]
+  }
 };
