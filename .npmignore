@@ -1,0 +1,8 @@
+node_modules
+src
+.gitignore
+.prettierrc.json
+eslint.config.mjs
+webpack.common.js
+webpack.dev.js
+webpack.prod.js

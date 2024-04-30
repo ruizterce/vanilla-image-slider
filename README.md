@@ -35,7 +35,7 @@ Import the class and call a new instance:
 #### index.js
 
 ```javascript
-import Slideshow from './path/vanilla-slideshow.js';
+import Slideshow from '../node_modules/vanilla-slideshow/dist/vanilla-slideshow.js';
 
 const slideshowDiv = document.querySelector('.slideshow');
 new Slideshow(slideshowDiv, 400, 400, 3000);
