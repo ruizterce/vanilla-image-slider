@@ -5,9 +5,11 @@ module.exports = {
   output: {
     filename: 'vanilla-slideshow.js',
     path: path.resolve(__dirname, 'dist'),
-    library: 'vanilla-slideshow',
-    libraryTarget: 'umd',
+    libraryTarget: 'module',
     clean: true
+  },
+  experiments: {
+    outputModule: true
   },
   module: {
     rules: [
