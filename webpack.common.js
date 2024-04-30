@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: ['./src/style.css', './src/index.js'],
+  entry: ['./src/vanilla-slideshow.css', './src/vanilla-slideshow.js'],
   output: {
     filename: 'vanilla-slideshow.js',
     path: path.resolve(__dirname, 'dist'),

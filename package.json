@@ -2,7 +2,7 @@
   "name": "vanilla-slideshow",
   "version": "1.0.0",
   "description": "Vanilla js image slider module.",
-  "main": "index.js",
+  "main": "vanilla-slideshow.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
