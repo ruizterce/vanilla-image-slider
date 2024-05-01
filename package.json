@@ -1,7 +1,7 @@
 {
   "name": "vanilla-slideshow",
-  "version": "1.0.2",
-  "description": "Vanilla js image slider module.",
+  "version": "1.0.4",
+  "description": "Image slider ES module. Written in vanilla js with no dependencies.",
   "main": "vanilla-slideshow.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,6 +16,7 @@
     "url": "git+https://github.com/ruizterce/vanilla-slideshow.git"
   },
   "keywords": [
+    "vanilla",
     "slideshow",
     "carousel",
     "slider"

@@ -1,6 +1,6 @@
 # vanilla-slideshow
 
-Vanilla js image slider ES module.
+Image slider ES module. Written in vanilla js with no dependencies.
 
 ## Parameters
 
@@ -15,6 +15,10 @@ Vanilla js image slider ES module.
 `delay` Delay in miliseconds to loop through each image. Use 0 to disable (optional - Default = 0)
 
 ## Usage/Examples
+
+Install:
+
+`npm i vanilla-slideshow`
 
 Wrap images inside a div:
 
