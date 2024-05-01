@@ -1,6 +1,6 @@
 {
   "name": "vanilla-slideshow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vanilla js image slider module.",
   "main": "vanilla-slideshow.js",
   "scripts": {
